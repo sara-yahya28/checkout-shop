@@ -153,7 +153,10 @@ hr {
     padding-top: 0.3125rem;
     padding-bottom: 0.3125rem;
 }
-
+#code:hover {
+    background-color: #49494b;
+    cursor: pointer;
+}
 #text {
     width: 28.125rem;
     border-radius: 0.625rem;
@@ -232,4 +235,13 @@ button {
     color: white;
     width: 100%;
     font-size: 0.95rem;
+}
+button:hover {
+    background-color: #49494b;
+    cursor: pointer;
+}
+
+.author-info{
+    margin-top: 20px;
+    margin-bottom: 0;
 }
