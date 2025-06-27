@@ -1,0 +1,235 @@
+body {
+    background-image: url('./resources/background-image@2x.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.be-vietnam-pro-bold {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.be-vietnam-pro-regular {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.be-vietnam-pro-medium {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.be-vietnam-pro-semibold {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin: 1.25rem;
+    font-weight: 700;
+    color: white;
+}
+
+#items {
+    padding: 0.3125rem 0.9375rem 0.3125rem 0.9375rem;
+    background-color: #1D1D1F;
+    border-radius: 3.125rem;
+    margin-left: 0.625rem;
+}
+
+#check {
+    margin-top: 0.3125rem;
+    font-size: 1.5rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.one {
+    background-color: #E5E7EB;
+    width: 40rem;
+    height: 35.9375rem;
+    border-radius: 1.25rem 0 0 1.25rem;
+}
+
+.image {
+    height: 6.25rem;
+    width: 6.25rem;
+    background-color: white;
+    border-radius: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.finance{
+    margin: 1.65rem;
+    margin-bottom: 1.25rem;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 600;
+    margin-top: 0.3125rem;
+}
+
+.detail {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 500;
+    font-size: 0.90rem;
+    margin-top: 0.3125rem;
+    color: #404756;
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%
+}
+
+.info,
+.detail {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.delete {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 0.9375rem;
+    color: #404756;
+}
+
+.delete img {
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+}
+
+.product {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin: 1.5625rem 1.25rem 0.9375rem 1.25rem;
+    /* spacing between image and text */
+    font-size: 1rem;
+}
+
+hr {
+    width: 34.0625rem;
+    margin: auto;
+    color: #E5E7EB;
+}
+
+.coupon {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.625rem;
+    gap: 0.625rem;
+}
+
+#code {
+    background-color: #1D1D1F;
+    color: white;
+    padding: 0.9375rem;
+    border-radius: 0.625rem;
+    border: none;
+    width: 7.5rem;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+}
+
+#text {
+    width: 28.125rem;
+    border-radius: 0.625rem;
+    border: none;
+    padding: 1.25rem;
+}
+
+.fRow {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sRow,
+.tRow {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0.625rem;
+}
+
+.two {
+    background-color: white;
+    width: 40rem;
+    height: 35.9375rem;
+    border-radius: 0 1.25rem 1.25rem 0;
+}
+
+.sub {
+    margin: 1.5625rem 1.25rem 0.9375rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    margin-bottom: 2rem;
+}
+
+.infor {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.90rem;
+}
+
+#name,
+#email,
+#country,
+#postal {
+    background-color: #F3F4F6;
+    padding: 1.25rem;
+    margin-bottom: 1.50rem;
+    margin-top: 0.625rem;
+    border: none;
+    border-radius: 0.625rem;
+}
+
+.both {
+    display: flex;
+    flex-direction: row;
+    gap: 7.5rem;
+}
+
+#country {
+    width: 150%;
+}
+
+#postal {
+    width: 160%;
+}
+
+button {
+    border: none;
+    padding: 0.9375rem;
+    border-radius: 0.625rem;
+    background-color: #1D1D1F;
+    color: white;
+    width: 100%;
+    font-size: 0.95rem;
+}
